@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidades - Projeto Acadêmico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cidades</h1>
+    </header>
+
+    <main>
+        <section class="cidade-list">
+            <h2>Lista de Cidades</h2>
+            <ul>  <li>São Paulo</li>
+                <li>Rio de Janeiro</li>
+                <li>Brasília</li>
+                <li>Fortaleza</li>
+                <li>Salvador</li>
+            </ul>
+        </section>
+
+        <section class="cidade-details">
+            <h2>Detalhes da Cidade (Selecione uma cidade)</h2>
+            <p>Clique em uma cidade na lista para ver seus detalhes.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .cidade-list ul {  list-style: none;  padding: 0;
+            margin: 0;
+        }
+
+        .cidade-list li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;  }
+
+        .cidade-list li:hover {  background-color: #eee;
+        }
+    </style>
+</body>
+</html>

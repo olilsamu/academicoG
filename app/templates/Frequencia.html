@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequência - Projeto Acadêmico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Frequência</h1>
+    </header>
+
+    <main>
+        <section class="frequencia-list">
+            <h2>Lista de Frequências</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Aluno</th>
+                        <th>Disciplina</th>
+                        <th>Data</th>
+                        <th>Presença</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>João Silva</td>
+                        <td>Programação Web</td>
+                        <td>2024-04-02</td>
+                        <td>Presente</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maria Oliveira</td>
+                        <td>Banco de Dados</td>
+                        <td>2024-04-03</td>
+                        <td>Ausente</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="frequencia-details">
+            <h2>Detalhes da Frequência (Selecione uma frequência)</h2>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .frequencia-list table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .frequencia-list th,
+        .frequencia-list td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .frequencia-list thead th {
+            background-color: #f0f0f0;
+        }
+
+        .frequencia-list .presente {
+            background-color: #cfc;
+            color: green;
+        }
+
+        .frequencia-list .ausente {
+            background-color: #ffcccc;
+            color: red;
+        }
+    </style>
+</body>
+</html>

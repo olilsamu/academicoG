@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - Projeto Acadêmico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cursos</h1>
+    </header>
+
+    <main>
+        <section class="curso-list">
+            <h2>Lista de Cursos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Instituição</th>
+                        <th>Carga Horária</th>
+                        <th>Modalidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ciência da Computação</td>
+                        <td>Universidade Federal de Minas Gerais</td>
+                        <td>4 anos</td>
+                        <td>Presencial</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Administração</td>
+                        <td>Universidade do Estado de Minas Gerais</td>
+                        <td>3 anos</td>
+                        <td>EAD</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="curso-details">
+            <h2>Detalhes do Curso (Selecione um curso)</h2>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .curso-list table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .curso-list th,
+        .curso-list td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .curso-list thead th {
+            background-color: #f0f0f0;
+        }
+    </style>
+</body>
+</html>

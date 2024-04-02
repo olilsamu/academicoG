@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disciplinas - Projeto Acadêmico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Disciplinas</h1>
+    </header>
+
+    <main>
+        <section class="disciplina-list">
+            <h2>Lista de Disciplinas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Curso</th>
+                        <th>Professor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Programação Web</td>
+                        <td>Ciência da Computação</td>
+                        <td>Professor Silva</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Banco de Dados</td>
+                        <td>Sistemas de Informação</td>
+                        <td>Professora Oliveira</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="disciplina-details">
+            <h2>Detalhes da Disciplina (Selecione uma disciplina)</h2>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .disciplina-list table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .disciplina-list th,
+        .disciplina-list td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .disciplina-list thead th {
+            background-color: #f0f0f0;
+        }
+    </style>
+</body>
+</html>

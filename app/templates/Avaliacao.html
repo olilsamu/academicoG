@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliações - Projeto Acadêmico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Avaliações</h1>
+    </header>
+
+    <main>
+        <section class="avaliacao-list">
+            <h2>Lista de Avaliações</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tipo</th>
+                        <th>Disciplina</th>
+                        <th>Aluno</th>
+                        <th>Nota</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Prova</td>
+                        <td>Programação Orientada a Objetos</td>
+                        <td>João Silva</td>
+                        <td>9.5</td>
+                        <td>2024-04-02</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Trabalho</td>
+                        <td>Banco de Dados</td>
+                        <td>Maria Oliveira</td>
+                        <td>8.0</td>
+                        <td>2024-04-04</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="avaliacao-details">
+            <h2>Detalhes da Avaliação (Selecione uma avaliação)</h2>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .avaliacao-list table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .avaliacao-list th,
+        .avaliacao-list td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .avaliacao-list thead th {
+            background-color: #f0f0f0;
+        }
+    </style>
+</body>
+</html>
